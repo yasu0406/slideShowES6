@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#extSlideShow{
+	position: relative;
+	margin: 0 auto;
+	width: 640px;
+	height: 425px;
+	border: 2px solid #666;
+}
+#extSlideShow img{
+	position: absolute;
+	width: 640px;
+	height: 425px;
+}
+#leftBtn,
+#rightBtn{
+	position: absolute;
+	z-index: 1000;
+	top: 50%;
+	border: 0;
+	background: 0;
+    font-size: 30px;
+    color: #fff;
+}
+
+#rightBtn{
+	right: 10px;
+}
+#leftBtn{
+	left: 10px;
+}
